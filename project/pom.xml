@@ -10,7 +10,7 @@
     <artifactId>project</artifactId>
     <packaging>war</packaging>
     <name>Project</name>
-    <repositories>
+    <distributionManagement>
     <repository>
 
                        <id>deployment</id>
@@ -18,7 +18,7 @@
                         <url>http://3.6.36.15:8081/repository/maven-repository/</url>
  
                 </repository>
-     </repositories>
+     </<distributionManagement>
     
  <dependencies>
         <!-- runtime dependency -->
