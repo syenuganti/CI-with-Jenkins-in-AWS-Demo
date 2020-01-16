@@ -47,11 +47,11 @@
             </build>
             <distributionManagement>
                 <repository>
-                    <snapshotRepository>
-                        <id>deployment</id>
+
+                       <id>deployment</id>
                         <name>Snapshots</name>
                         <url>http://3.6.36.15:8081/repository/maven-repository/</url>
-                    </snapshotRepository>
+ 
                 </repository>
             </distributionManagement>
         </profile>
