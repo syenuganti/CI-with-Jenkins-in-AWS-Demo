@@ -4,7 +4,7 @@
     <parent>
         <groupId>ci.jenkins.aws</groupId>
         <artifactId>proj3</artifactId>
-        <version>1.0-RAMA</version>
+        <version>1.0-SNAPSHOT</version>
     </parent>
 
     <artifactId>project</artifactId>
@@ -45,6 +45,15 @@
                     </plugin>
                 </plugins>
             </build>
+            <distributionManagement>
+                <repository>
+                    <snapshotRepository>
+                        <id>deployment</id>
+                        <name>Snapshots</name>
+                        <url>http://3.6.36.15:8081/repository/maven-repository/</url>
+                    </snapshotRepository>
+                </repository>
+            </distributionManagement>
         </profile>
     </profiles>
 
